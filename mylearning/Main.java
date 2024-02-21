@@ -8,5 +8,6 @@ public class Main {
         // System.out.println();
         // \n is the escape sequence for new line
         System.out.println("\n*\n**\n***\n****");
+        System.out.println("*\n**"); 
     }
 }
