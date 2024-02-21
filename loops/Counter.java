@@ -10,7 +10,7 @@ public class Counter {
      for (int a = 0 ; a <= counter ; a++){
         System.out.print("\n"+a);
      }
-
+     
         sc.close();
     }
 }
