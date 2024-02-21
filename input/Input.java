@@ -14,8 +14,8 @@ public class Input {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int c = a + b;
-        System.out.println(c);
+        int sum = a + b;
+        System.out.println(sum);
         sc.close();
     }
 }
