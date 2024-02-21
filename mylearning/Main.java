@@ -7,5 +7,6 @@ public class Main {
         // Creating next line in Java
         // System.out.println();
         // \n is the escape sequence for new line
+        System.out.println("\n*\n**\n***\n****");
     }
 }
