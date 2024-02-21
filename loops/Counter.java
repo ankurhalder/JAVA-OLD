@@ -7,8 +7,8 @@ public class Counter {
         Scanner sc = new Scanner(System.in);
         int counter = sc.nextInt();
         
-     for (int a = 1 ; a <= counter ; a++){
-        System.out.println(a);
+     for (int a = 0 ; a <= counter ; a++){
+        System.out.print("\n"+a);
      }
 
         sc.close();
