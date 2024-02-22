@@ -17,12 +17,12 @@ public class MinMax {
         int max = numbers[0];
         int min = numbers[0];
         for (int i = 0; i < numbers.length; i++) {
-            if (max > numbers[i]) {
+            if (max < numbers[i]) {
                 max = numbers[i];
-            } else {
+            }
+            if (min > numbers[i]) {
                 min = numbers[i];
             }
-
         }
 
         System.out.println("The Maximum number in the Array is " + max);
