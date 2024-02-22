@@ -1,4 +1,5 @@
 package input;
+
 import java.util.*;
 
 public class Input {
@@ -9,7 +10,7 @@ public class Input {
         // nextInt()
         // nextDouble() and more
         // System.out.println(name);
-        // sc.close(); 
+        // sc.close();
 
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
