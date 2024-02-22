@@ -1,7 +1,7 @@
 package functions;
 import java.util.*;
 
-public class sum {
+public class Sum {
   public static int CalculateSum(int a , int b){
    int sum = a + b;
    return sum;
