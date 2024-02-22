@@ -15,7 +15,7 @@ public class Multiply {
         int multiple = multiply(a, b);
         System.out.println(multiple);
         sc.close();
-        //  printMyName(name);
+        
 
     }
 }
