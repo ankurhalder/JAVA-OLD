@@ -27,6 +27,25 @@ public class Strings {
         sb.insert(0, "A");
         System.out.println(sb);
 
+        // append
+        sb.append(" ");
+        sb.append("i");
+        sb.append("s");
+        sb.append(" ");
+        sb.append("a");
+        sb.append(" ");
+        sb.append("g");
+        sb.append("o");
+        sb.append("o");
+        sb.append("d");
+        sb.append(" ");
+        sb.append("G");
+        sb.append("u");
+        sb.append("y");
+
+        System.out.println(sb);
+        System.out.println(sb.length());
+
         sc.close();
     }
 }
