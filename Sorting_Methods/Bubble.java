@@ -7,6 +7,7 @@ public class Bubble {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println();
         sc.close();
     }
 }
