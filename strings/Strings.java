@@ -9,6 +9,9 @@ public class Strings {
 
         System.out.println(sb.charAt(0));
 
+        sb.setCharAt(0, 'M');
+        System.out.println(sb);
+
         sc.close();
     }
 }
