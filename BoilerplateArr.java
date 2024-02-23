@@ -5,11 +5,10 @@ public class BoilerplateArr {
         System.out.println("Please mention the size of the array ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        // Call the input method to get user input for the array elements
+
         int[] arr = input(n);
 
         // Perform all the operation's here
-        // Call the generateArray method to generate and print the array
         generateArray(arr);
         sc.close();
     }
@@ -35,7 +34,7 @@ public class BoilerplateArr {
 
         for (int i = 0; i < arr.length; i++) {
 
-            System.out.println(arr[i]);
+            System.out.print(arr[i] + " ");
         }
     }
 }
