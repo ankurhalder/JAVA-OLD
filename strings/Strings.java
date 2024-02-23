@@ -7,7 +7,7 @@ public class Strings {
         // Initiate
         StringBuilder sb = new StringBuilder("Ankur Halder");
         Scanner sc = new Scanner(System.in);
-        // print
+        // print any character
         System.out.println(sb.charAt(0));
 
         // update
@@ -16,6 +16,15 @@ public class Strings {
 
         // add
         sb.insert(1, "o");
+        System.out.println(sb);
+
+        // delete
+
+        sb.delete(0, 2);
+        System.out.println(sb);
+
+        // add again
+        sb.insert(0, "A");
         System.out.println(sb);
 
         sc.close();
