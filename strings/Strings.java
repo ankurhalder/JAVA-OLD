@@ -12,6 +12,9 @@ public class Strings {
         sb.setCharAt(0, 'M');
         System.out.println(sb);
 
+        sb.insert(1, "o");
+        System.out.println(sb);
+
         sc.close();
     }
 }
