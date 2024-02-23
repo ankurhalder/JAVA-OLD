@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Strings {
     public static void main(String args[]) {
-        // Initiate
+        // Initiate String builder
         StringBuilder sb = new StringBuilder("Ankur Halder");
         Scanner sc = new Scanner(System.in);
         // print any character
@@ -39,13 +39,24 @@ public class Strings {
         sb.append("o");
         sb.append("d");
         sb.append(" ");
-        sb.append("G");
+        sb.append("g");
         sb.append("u");
         sb.append("y");
 
         System.out.println(sb);
         System.out.println(sb.length());
 
+        // reverse a string
+        for (int i = 0; i < sb.length() / 2; i++) {
+            int front = i;
+            int back = sb.length() - 1 - i;
+
+            char frontChar = sb.charAt(front);
+            char backChar = sb.charAt(back);
+            sb.setCharAt(front, backChar);
+            sb.setCharAt(back, frontChar);
+        }
+        System.out.println(sb);
         sc.close();
     }
 }
